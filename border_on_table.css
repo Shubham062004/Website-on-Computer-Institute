@@ -1,0 +1,24 @@
+.borderontable{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tableheader{
+    background-color: yellowgreen;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: larger;
+    border-bottom: 2px solid black;
+    text-align: left;
+    
+}
+
+.odd{
+    background-color: lightblue;
+
+
+}
+
+.even{
+    background-color: lightgoldenrodyellow;
+}

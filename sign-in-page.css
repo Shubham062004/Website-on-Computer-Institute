@@ -1,0 +1,17 @@
+.table-tr {
+    justify-content: space-around;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.submit-padding {
+    padding-top: 25px;
+    padding-left: 70px;
+    padding-bottom: 33px;
+}
+
+.table-border {
+    padding-left: 40px;
+}

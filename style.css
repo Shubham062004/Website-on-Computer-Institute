@@ -1,0 +1,225 @@
+/* Importing font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* removing preset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling body */
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 116px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.bg-green {
+    position: absolute;
+    width: 446px;
+    height: 629px;
+    left: 948px;
+    top: 0px;
+    right: 492px;
+    background: rgb(60,90,255);
+    border-radius: 0px 0px 100px 0px;
+    z-index: -1;
+}
+
+h2 {
+    font-size: 54px;
+}
+
+h3 {
+    color: rgb(60,90,255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+/* Styling footer section */
+footer {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 273px;
+}
+
+footer p {
+    text-align: right;
+    padding-bottom: 64px;
+}
+
+.contact-container {
+    position: absolute;
+    left: 0;
+    height: 273px;
+    max-width: 596px;
+    background-color: rgb(60,90,255);
+}
+
+.contact-container>h2,
+.contact-container>a {
+    padding-left: 116px;
+    padding-top: 60px;
+    color: white;
+    margin-right: 282px;
+}
+
+.social-media-container {
+    width: 103px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 116px;
+}
+
+.social-media-container>img {
+    width: 20px;
+}
+
+/* Mobile friendly */
+@media only screen and (max-width: 600px) {
+    .bg-green {
+        display: none;
+    }
+
+    body {
+        padding: 0 50px;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    header img {
+        width: 70%;
+    }
+
+    .contact-container>h2,
+    .contact-container>a {
+        margin-right: 20px;
+    }
+
+    .proud-container {
+        position: initial;
+    }
+
+    .proud-overall-container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .proud-container>h1 {
+        margin-right: 30px;
+
+    }
+}
+
+a {
+    color: rgb(60,90,255);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: rgb(60,90,255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+  }
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  .back-to-top:hover {
+    background: rgb(60,90,255);
+    color: #fff;
+  }
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  /* extra */
+.profilepic1 {
+    height: 500px;
+    width: 500px;
+}
+
+.letswhite {
+    color: white;
+    text-decoration: none;
+}
+
+.training121 {
+    margin-top: 45px;
+}
+
+.gitlink {
+    color: black;
+}
+
+.heightincrease {
+    height: 347px;
+}
+
+a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: blue;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
